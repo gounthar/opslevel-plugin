@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
-        <version>4.16</version>
+        <version>4.51</version>
         <relativePath />
     </parent>
 
@@ -64,8 +64,7 @@
         <gitHubRepo>jenkinsci/${pluginName}</gitHubRepo>
         <pluginUrl>https://github.com/${gitHubRepo}</pluginUrl>
 
-        <jenkins.version>2.277.1</jenkins.version>
-        <java.level>8</java.level>
+        <jenkins.version>2.346.3</jenkins.version>
     </properties>
 
     <!-- Add resource filtering to pass build time variables to runtime -->
@@ -158,7 +157,6 @@
         <dependency>
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-core</artifactId>
-            <version>2.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -174,7 +172,6 @@
       <dependency>
         <groupId>org.jenkins-ci.plugins.workflow</groupId>
         <artifactId>workflow-job</artifactId>
-        <version>2.40</version>
         <scope>test</scope>
       </dependency>
     </dependencies>
